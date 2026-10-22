@@ -5,7 +5,8 @@ function Contact(){
             <h1>Contact Us</h1>
             <p>E-mail: jankowalski@gmail.com</p>
             <p>Phone: 123456789</p>
-            <p>Address: Toruńska 29, 85-023 Bydgoszcz</p>
+            <p>Address: Poznań</p>
+            <p style={{ color: "red", fontWeight: "bold" }}>To jest wersja demo strony</p>
         </div>
     );
 }

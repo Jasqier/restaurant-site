@@ -19,12 +19,17 @@ function Body(){
                         It’s all rounded off by a relaxed, unpretentious atmosphere—the perfect place 
                         for a quick outing with friends to enjoy a substantial, satisfying cheat meal.
                     </p>
-                    <button className="checkNowBtn">Check now</button>
+                    <button className="checkNowBtn" onClick={() => {
+                        document.getElementById("menu").scrollIntoView({behavior:"smooth"});
+                        }}>
+                        Check now
+                    </button>
                 </div>
             </div>
-            
-            <Menu/>
 
+            <div id="menu">
+                <Menu/>
+            </div>
 
             <div className="divider3"></div>
 
